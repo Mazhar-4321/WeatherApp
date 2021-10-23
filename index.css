@@ -1,0 +1,259 @@
+#container
+{
+    display: grid;
+    background-color: #08B6CE;
+    grid-template-columns : 1fr 1fr;
+   
+    line-height: 50%;
+   
+}
+#humidity
+{
+    padding:0px;margin-bottom:5px;margin-top:5px;font-size:15px;font-weight: bold;
+    
+}
+#humidity_like_para
+{
+    padding:5px;margin:0px;font-size:10px;font-weight: bold;
+}
+#feels_like
+{
+    padding:0px;margin-bottom:5px;margin-top:5px;font-size:15px;font-weight: bold;
+}
+#feels_like_para
+{
+    padding:5px;margin:0px;font-size:10px;font-weight: bold;
+}
+#feels_like_div
+{
+    text-align: center;padding-bottom:10px;
+}
+i{
+    text-align: center;
+    padding-top:10px;
+    margin-left:-10px;
+}
+#weather_report #temperature_city_country
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+#img
+{
+    min-width:100px;
+    min-height:100px;
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-image: url("https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+}
+#temperature
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#weather_report
+{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30%;
+}
+#weather_report div
+{
+    margin-bottom: 10px;
+}
+*
+{
+    font-family: 'Sora', sans-serif;
+    
+}
+#header,#city_div,#header1
+{
+    margin-left: 10px;
+    margin-top :10px;
+    font-weight: bolder;
+}
+#header p,#header1 p
+{
+    font-size: 24px;
+    color:#08B6CE;;
+}
+#separator
+{
+    width:100%;
+    height: 2px;
+    background-color: #eff1f1;
+    margin-bottom: 20px;;
+}
+input
+{
+    text-align: center;
+    width:90%;
+    height: 30px;
+   
+}
+#weather_button button
+{
+    margin-top:20px;
+    margin-left:10px;
+    min-width:90%;
+    height: 40px;
+    text-align: center;
+    cursor:pointer;
+    font-weight: bolder;
+   background-color:  #08B6CE;;
+   color: white;
+}
+#mini_box
+{
+    background-color: white;
+    margin:100px;
+    
+    width:40%;
+    height:60%;
+    text-align: left;
+    align-items: left;
+    border-radius: 1%;
+}
+#weather_temp_hum_temp,#weather_temp_hum_hum
+{
+    text-align: center;
+    padding-left:50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#weather_temp_hum_temp_flex,#weather_temp_hum_hum_flex
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+#sep_col
+{
+    width:2px;
+    height:75px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    background-color: #e6e9ea;
+}
+#weather_temp_hum
+{
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+#header1 p
+{
+    padding:0px;
+}
+#major_box
+{
+    background-color: white;
+    height: 120%;
+    border-radius: 1%;
+    text-align: left;
+    align-items: left;
+    width:40%;
+    margin-top:-120px;
+    margin-left:-100px;
+}
+body{
+     background-color: #08B6CE;
+    text-align: center;
+    padding-top: 20% ;
+}
+@media only screen and (min-width:200px) and (max-width:767px)
+{
+
+    #container
+    {
+        display: flex;
+        background-color: #08B6CE;;
+        flex-direction: column;
+        line-height: 0px;
+       
+       
+    }
+    #mini_box
+{
+    background-color: white;
+    margin:50px;
+    
+    width:60%;
+    height:200px;
+    text-align: left;
+    align-items: left;
+    border-radius: 1%;
+}
+
+#header,#city_div,#header1
+{
+    margin-left: 10px;
+    margin-top :10px;
+    font-size: medium;
+    font-weight: bolder;
+}
+#major_box
+{
+    background-color: white;
+    height:auto;
+    border-radius: 1%;
+    text-align: left;
+    align-items: left;
+    min-width:90%;
+    margin-top: 20px;
+    margin-left :20px;
+    margin-right:50px;
+   
+}
+#weather_report
+{
+    display: flex;
+    flex-direction: column;
+    
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30%; */
+}#weather_report div
+{
+    margin-bottom: 5px;
+}
+body
+{
+    margin: 0px;
+    padding:0px;
+    height: auto;
+    padding-bottom: 10px;
+}
+#feels_like_div
+{
+    text-align: center;padding-bottom:10px;
+}
+#feels_like_para
+{
+    padding:5px;margin:0px;font-size:10px;font-weight: bold;
+}
+#feels_like
+{
+    padding:0px;margin-bottom:10px;margin-top:10px;font-size:15px;font-weight: bold;
+}
+#weather_temp_hum_temp_flex,#weather_temp_hum_hum_flex
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#humidity
+{
+    padding:0px;margin-bottom:10px;margin-top:10px;font-size:15px;font-weight: bold;
+    
+}
+#humidity_like_para
+{
+    padding:5px;margin:0px;font-size:10px;font-weight: bold;
+}
+}

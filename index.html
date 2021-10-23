@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Sora:wght@200&display=swap" rel="stylesheet"> 
+    
+    
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="mini_box">
+         <div id="header">
+             <p>Weather App</p>
+         </div>
+         <div id="separator">
+           
+         </div>
+         <div id="city_div">
+          <input  id ="location" type="text" value="Hyderabad" placeholder="Enter city name">
+         </div>
+         <div id="weather_button">
+            <button onclick="updateDom()">Fetch Data</button>
+           </div>
+        </div>
+           <div id="major_box">
+   <div id="header1">
+       <p>&larr;Weather App</p>
+   </div>
+   <div id="weather_info">
+       
+   <div id="separator"></div>
+       <div id="weather_report">
+    <div id="img">
+           
+    </div>
+    <div id="temperature">
+        <p id="temp_p">13&deg;C</p>
+    </div>
+    <div id="temperature_info">Broken Clouds</div>
+    <div id="temperature_city_country">
+        
+        
+            <i class="fas fa-map-marker-alt"></i>
+            <p id="city_state"> Kathmandu,Nepal</p>
+           
+        
+    </div>
+        </div>
+        <div id="separator"></div>
+        <div id="weather_temp_hum">
+            <div id="weather_temp_hum_temp">
+                <div id="weather_temp_hum_temp_flex">
+                <div id="feels_like_div" >
+                 <i class="fa fa-thermometer-three-quarters"></i>
+                </div>
+                <div>
+                    <p    id="feels_like">17&deg;C</p>
+                    <p  id ="feels_like_para" >Feels Like</p>
+                </div>
+                </div>
+            </div>
+            <div id="sep_col"></div>
+            <div id="weather_temp_hum_hum">
+
+                <div id="weather_temp_hum_hum_flex">
+                    <div>
+                     <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div>
+                        <p   id="humidity">84%</p>
+                        <p id="humidity_like_para" >Humidity</p>
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div></div>
+
+        </div>
+    
+</div>
+</div>
+           </div>
+    </div>
+</body>
+</html>
